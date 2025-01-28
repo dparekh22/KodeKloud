@@ -1,0 +1,8 @@
+//How many nodes are in the cluster?
+kubectl get nodes
+
+//What is the version of Kubernetes running on the nodes?
+kubectl version
+
+//What is the flavor and version of Operating System on which the Kubernetes nodes are running?
+cat /etc/os-release*
